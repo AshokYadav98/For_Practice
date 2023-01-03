@@ -13,7 +13,6 @@ public class ListenerAmazon extends BaseForAmazon implements ITestListener
 {
 	public void onTestSuccess(ITestResult result) 
 	{
-		
 		try {
 			UtilityPropertyAmazon.Screenshot(driver, result.getName());
 		} catch (IOException e) {
