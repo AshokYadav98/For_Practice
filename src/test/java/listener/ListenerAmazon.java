@@ -25,6 +25,13 @@ public class ListenerAmazon extends BaseForAmazon implements ITestListener
 		Reporter.log("Tc "+result.getName()+" passed successfully", true);
 	}
 	
+	
+	
+	
+	
+	
+	
+	
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result)
 	{
 		Reporter.log("TC "+result.getName()+" is failed ..please try again, true");
@@ -38,10 +45,6 @@ public class ListenerAmazon extends BaseForAmazon implements ITestListener
 		
 		
 	}
-	
-	
-	
-	
 	
 	
 	public void onTestSkipped(ITestResult result)
