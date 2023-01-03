@@ -41,9 +41,6 @@ public class ListenerAmazon extends BaseForAmazon implements ITestListener
 	
 	
 	
-	
-	
-	
 	public void onTestSkipped(ITestResult result)
 	{
 		
