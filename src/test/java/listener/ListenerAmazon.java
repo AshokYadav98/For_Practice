@@ -11,7 +11,6 @@ import neoStoxUtilityMaven.UtilityPropertyAmazon;
 
 public class ListenerAmazon extends BaseForAmazon implements ITestListener
 {
-	
 	public void onTestSuccess(ITestResult result) 
 	{
 		
